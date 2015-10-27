@@ -7,10 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A4142E21BD7460200567A9C /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A4142E11BD7460200567A9C /* images.xcassets */; };
+		1A4142E31BD7460200567A9C /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A4142E11BD7460200567A9C /* images.xcassets */; };
+		1A4142E51BD7477000567A9C /* MailboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4142E41BD7477000567A9C /* MailboxViewController.swift */; };
+		1A4142E61BD7477000567A9C /* MailboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4142E41BD7477000567A9C /* MailboxViewController.swift */; };
 		1A52075D1BD741C9009D167A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A52075C1BD741C9009D167A /* AppDelegate.swift */; };
 		1A52075F1BD741C9009D167A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A52075E1BD741C9009D167A /* ViewController.swift */; };
 		1A5207621BD741C9009D167A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A5207601BD741C9009D167A /* Main.storyboard */; };
-		1A5207641BD741C9009D167A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A5207631BD741C9009D167A /* Images.xcassets */; };
 		1A5207671BD741C9009D167A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A5207651BD741C9009D167A /* LaunchScreen.xib */; };
 		1A5207731BD741C9009D167A /* MailboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5207721BD741C9009D167A /* MailboxTests.swift */; };
 /* End PBXBuildFile section */
@@ -26,12 +29,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A4142E11BD7460200567A9C /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = images.xcassets; path = ../images.xcassets; sourceTree = "<group>"; };
+		1A4142E41BD7477000567A9C /* MailboxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailboxViewController.swift; sourceTree = "<group>"; };
 		1A5207571BD741C9009D167A /* Mailbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mailbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A52075B1BD741C9009D167A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A52075C1BD741C9009D167A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A52075E1BD741C9009D167A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1A5207611BD741C9009D167A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1A5207631BD741C9009D167A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1A5207661BD741C9009D167A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1A52076C1BD741C9009D167A /* MailboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MailboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A5207711BD741C9009D167A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -80,7 +84,8 @@
 				1A52075C1BD741C9009D167A /* AppDelegate.swift */,
 				1A52075E1BD741C9009D167A /* ViewController.swift */,
 				1A5207601BD741C9009D167A /* Main.storyboard */,
-				1A5207631BD741C9009D167A /* Images.xcassets */,
+				1A4142E41BD7477000567A9C /* MailboxViewController.swift */,
+				1A4142E11BD7460200567A9C /* images.xcassets */,
 				1A5207651BD741C9009D167A /* LaunchScreen.xib */,
 				1A52075A1BD741C9009D167A /* Supporting Files */,
 			);
@@ -156,6 +161,8 @@
 		1A52074F1BD741C9009D167A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Piers Yem";
 				TargetAttributes = {
@@ -192,9 +199,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A4142E21BD7460200567A9C /* images.xcassets in Resources */,
 				1A5207621BD741C9009D167A /* Main.storyboard in Resources */,
 				1A5207671BD741C9009D167A /* LaunchScreen.xib in Resources */,
-				1A5207641BD741C9009D167A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +209,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A4142E31BD7460200567A9C /* images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +222,7 @@
 			files = (
 				1A52075F1BD741C9009D167A /* ViewController.swift in Sources */,
 				1A52075D1BD741C9009D167A /* AppDelegate.swift in Sources */,
+				1A4142E51BD7477000567A9C /* MailboxViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A5207731BD741C9009D167A /* MailboxTests.swift in Sources */,
+				1A4142E61BD7477000567A9C /* MailboxViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +415,7 @@
 				1A5207781BD741C9009D167A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A5207791BD741C9009D167A /* Build configuration list for PBXNativeTarget "MailboxTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +424,7 @@
 				1A52077B1BD741C9009D167A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
